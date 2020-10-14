@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<!--Created by Shankar Sigdel-->
+<html >
+
+<head>
+<meta content="en-us" http-equiv="Content-Language">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>class example week 09 - HTML Forms</title>
+<meta content="html forms, Class example, week 09" name="keywords">
+<meta content="Example of using html forms" name="description">
+<link href="Week09Styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="allPage">
+<header>
+	<h1>Centennial College - Registration Form</h1>
+</header>
+<main>
+<form action="mailto:rkldh01@my.centennialcollege.ca" method="post">
+	<table style="width: 100%">
+		<tr>
+			<td class="fieldLabel">First Name:</td>
+			<td><input name="txtFirstName" size="25" tabindex="1" type="text"></td>
+		</tr>
+		<tr>
+			<td class="fieldLabel">Last Name:</td>
+			<td><input name="txtLastName" size="25" tabindex="3" type="text"></td>
+		</tr>
+		<tr>
+			<td class="fieldLabel">Email:</td>
+			<td><input name="txtEmail" size="35" tabindex="5" type="text"></td>
+		</tr>
+		<tr>
+			<td class="fieldLabel">Create 
+	Password:</td>
+			<td><input name="txtCreatePassword" size="15" tabindex="7" type="password"></td>
+		</tr>
+		<tr>
+			<td class="fieldLabel">Confirm Password:</td>
+			<td><input name="txtConfirmPassword" size="15" tabindex="9" type="password"></td>
+		</tr>
+		<tr>
+			<td class="fieldLabel">Gender:</td>
+			<td>
+			<input name="optGender" tabindex="11" type="radio" value="M">M<input name="optGender" tabindex="13" type="radio" value="F">F<input name="optGender" tabindex="15" type="radio" value="X">X<br>
+			</td>
+		</tr>
+		<tr>
+			<td class="fieldLabel">Education:</td>
+			<td>
+			<input name="optEd" tabindex="17" type="radio" value="Sec">Secondary<input name="optEd" tabindex="19" type="radio" value="College">College<input name="optEd" tabindex="21" type="radio" value="UndGrad">Undergraduate<input name="optEd" tabindex="23" type="radio" value="Grad">Graduate<input name="optEd" tabindex="25" type="radio" value="PostGrad">Poastgraduate</td>
+		</tr>
+		<tr>
+			<td class="fieldLabel">Computer Knowledge:</td>
+			<td><input name="chkOS" tabindex="27" type="checkbox" value="OS">OS<input name="chkNet" tabindex="29" type="checkbox" value="Net">Networking<input name="chkPro" tabindex="31" type="checkbox" value="Pro">Programming<input name="chkWebDes" tabindex="33" type="checkbox" value="WebDes">Web 
+	Design<input name="chkDB" tabindex="35" type="checkbox" value="DB">DB</td>
+		</tr>
+		<tr>
+			<td class="fieldLabel">Select Courses:
+	</td>
+			<td>
+	<select name="lstCourses" multiple="multiple" size="3" tabindex="37">
+	<option value="COMP100">COMP100 Programming 1</option>
+	<option value="COMP125">COMP125 Client Side Development</option>
+	<option value="COMP213">COMP213 Web Interface Design</option>
+	<option value="COMP225 ">COMP225 Systems1</option>
+	<option value="COMP229 ">COMP229 Server Side Development</option>
+	</select></td>
+		</tr>
+		<tr>
+			<td class="fieldLabel">Special Request:</td>
+			<td><textarea cols="50" name="txtSpecialReq" rows="7" tabindex="39">--Please let us know about your special learning needs(Eg : closed captioning, note taking, video transcript, etc.)--</textarea></td>
+		</tr>
+		<tr>
+			<td class="fieldLabel">
+			<input name=" btnSubmit" tabindex="41" type="submit" value="Register Now"></td>
+			<td>
+			<input name="btnReset" tabindex="43" type="reset" value="Start Again"></td>
+		</tr>
+	</table>
+	<br>
+	</form>
+	<a href="../index.html">Back to Index</a>
+&nbsp;</main><footer>
+<p id="copyright">&copy;&nbsp;Copyright By - Shankar Sigdel Class Example Week 09</footer>
+</div>
+</body>
+
+</html>
